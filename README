@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3022
+
+Add a bookmarking feature to Vim that allows lines of interest to be marked. While similar to marks, you don't need to assign a bookmark to a mark key, instead an infinite number of bookmarks can be created and then jumped through in sequential order (by line number) with no strain on your memory. This is great to use when you are browsing through some source code for the first time and need to mark out places of interest to learn how it works. It lets you just worry about the code and not have to remember which marks you have or haven't used.
+
+Usage:
+  * <F3> / :ToggleBookmark - Set a bookmark at the current location.
+  * <F4> / :PreviousBookmark - Jump to the closest bookmark earlier that the current location in the file.
+  * <F5> / :NextBookmark - Jump to the closest bookmark later than the current location in the file.
+
+You can follow the development on Github at http://github.com/dterei/VimBookmarking
